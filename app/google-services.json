@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "819305513578",
+    "firebase_url": "https://gd-iwebgraph.firebaseio.com",
+    "project_id": "gd-iwebgraph",
+    "storage_bucket": "gd-iwebgraph.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819305513578:android:a586b3c9c147ef0f7cc013",
+        "android_client_info": {
+          "package_name": "com.example.gd1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819305513578-su0ui2660krhkt5nmkins3m4vg77ee3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1128G4mh-uTqxEwniL-dHaDPQ9WF66Rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819305513578-su0ui2660krhkt5nmkins3m4vg77ee3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
