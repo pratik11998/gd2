@@ -1,65 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:background="@drawable/login_bg"
+    android:layout_height="wrap_content">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:text="Registration"
+        android:layout_marginVertical="100dp"
         android:textSize="25dp"
+        android:layout_marginLeft="130dp"
         android:textStyle="bold"
         android:layout_gravity="center"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="20dp"
-        android:text="Phone Number"/>
 
     <EditText
         android:id="@+id/number"
-        android:layout_width="wrap_content"
+        android:layout_marginVertical="200dp"
+        android:hint="Phone Number"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:inputType="phone"
         android:ems="10" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email"
-        android:layout_marginLeft="100dp" />
     <EditText
+        android:layout_marginVertical="250dp"
         android:id="@+id/txtEmail"
-        android:layout_width="wrap_content"
+        android:hint="Email"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:ems="10" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:layout_marginLeft="100dp" />
+
     <EditText
+        android:layout_marginVertical="300dp"
         android:id="@+id/txtPwd"
-        android:layout_width="wrap_content"
+        android:hint="Password"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:inputType="textPassword"
         android:ems="10" />
     <Button
+        android:layout_marginVertical="350dp"
         android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
+        android:background="@drawable/buttonxml"
         android:text="SignUp" />
     <TextView android:id="@+id/lnkLogin"
+        android:layout_marginVertical="400dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="Already Registered? Login here"
         android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="#3F51B5"
+        android:textSize="15dp"
+        android:textColor="#808080"
         />
-</LinearLayout>
+</RelativeLayout>

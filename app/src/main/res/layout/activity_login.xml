@@ -1,43 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email"
-        android:layout_marginLeft="100dp" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
     <EditText
         android:id="@+id/lgtxtEmail"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="240dp"
         android:layout_marginLeft="100dp"
-        android:ems="10" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:layout_marginLeft="100dp" />
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Email" />
+
     <EditText
         android:id="@+id/lgtxtPwd"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="300dp"
         android:layout_marginLeft="100dp"
-        android:inputType="textPassword"
-        android:ems="10" />
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
     <Button
         android:id="@+id/Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
+        android:layout_marginVertical="370dp"
+        android:background="@drawable/buttonxml"
         android:text="Login" />
-    <TextView android:id="@+id/lnkreister"
+
+    <TextView
+        android:id="@+id/lnkreister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="New User? Register here"
         android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="#3F51B5"
-        />
-</LinearLayout>
+        android:layout_marginVertical="450dp"
+        android:text="New User? Register here"
+        android:textColor="#808080"
+        android:textSize="20dp" />
+</RelativeLayout>
